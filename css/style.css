@@ -21,8 +21,9 @@
     text-align: center;
     color: white;
 }
-
-
+.card{
+    margin-bottom: 10px;
+}
 
 .centered {
     position: absolute;
@@ -49,4 +50,6 @@ h1, .h1 {
 .about-section p {
     margin-bottom: 5rem;
 }
+
+
 
