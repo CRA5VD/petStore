@@ -16,6 +16,12 @@
     text-align: center;
 }
 
+#sameSize{
+  height: 300px;
+  text-align: center;
+}
+
+  
 .container {
     position: relative;
     text-align: center;
@@ -23,6 +29,7 @@
 }
 .card{
     margin-bottom: 10px;
+    width: 30%;
 }
 
 .centered {
@@ -79,4 +86,10 @@ h1, .h1 {
       width: 30%;
     }
   }
+  #market{
+    display: flex;
+    flex: wrap;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  }
 
+  
