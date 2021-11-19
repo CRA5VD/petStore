@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+
 .hero-container {
     position: relative;
 }
@@ -51,15 +55,17 @@ h1, .h1 {
 
 .about-section {
     padding-top: 10rem;
-    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+     background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); 
+    
 }
 
 .about-section p {
     margin-bottom: 5rem;
+    
 }
 
 .projects-section {
-    padding: 10rem 0;
+    padding: 0;
     
 
   }
@@ -88,8 +94,39 @@ h1, .h1 {
   }
   #market{
     display: flex;
-    flex: wrap;
-    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+   
   }
 
   
+.proPrice{
+  display: flex;
+  flex-direction: row;
+  margin-right: 3px;
+}
+
+.about-section{
+    background: url(../img/peter-unsplash.jpg);
+    background: url(../img/peter-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom -380px center;
+    background-repeat: no-repeat;
+
+}
+#contactForm{
+  display: flex;
+}
+.adopt-section{
+  background: none;
+}
+
+.shop-section{
+  background: none;
+}
+
+.contact-section{
+  background: none;
+  padding-top: 5rem;
+}
